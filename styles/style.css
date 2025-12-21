@@ -54,7 +54,7 @@
 
 .header__theme-menu-button {
   border: none;
-  padding: 4.3px 13px;
+  padding: 3.3px 13px;
   color: var(--accent-color);
   font-family: var(--font__family, 'IBM Plex mono', sans-serif);
   font-weight: var(--text__weight__regular, 400);
