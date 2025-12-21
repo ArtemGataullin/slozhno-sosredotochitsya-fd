@@ -1,6 +1,6 @@
 .page {
   display: grid;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: max-content max-content max-content;
   gap: var(--page__gap, 40px);
   padding: var(--padding__page, 10px);
   background-color: var(--bg-color);
@@ -15,8 +15,8 @@
   position: relative;
   display: grid;
   grid-template-rows: 35% max-content 34%;
-  font-family: 'IBM Plex mono';
-  block-size: 658px;
+  font-family: var(--font__family,  'IBM Plex mono', sans-serif);
+  block-size: min(658px);
 }
 
 .decorative-text {
@@ -93,7 +93,7 @@
 }
 
 .header__wrapper__paragraf {
-  justify-self: flex-end;
+  justify-self: flex-start;
   align-self: center;
 }
 
@@ -101,7 +101,7 @@
   font-weight: var(--text__weight__bold, 700);
   font-size: var(--text__size, 18px);
   line-height: var(--text__height, 23.4px);
-  inline-size: max(364px);
+  inline-size: max(354px);
 }
 
 .title-decor {
@@ -221,6 +221,7 @@
 }
 
 @media (width >= 768px) {
+  
   .page {
     grid-template-rows: max-content max-content 11%;
     gap: var(--page__gap, 60px);
@@ -237,6 +238,11 @@
   .header__title {
     margin-inline-start: -20px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header__wrapper__paragraf {
+    justify-self: flex-end;
+    align-self: center;
   }
 
   .decorated-zone::before {
@@ -308,6 +314,7 @@
 }
 
 @media (width >= 1024px) {
+  
   .page {
     grid-template-rows: max-content max-content 11%;
     gap: var(--page__gap, 60px);

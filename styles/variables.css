@@ -19,6 +19,7 @@
 }
 
 @media (width >= 768px) {
+  
   :root {
     --padding__page: 20px;
     --page__gap: 60px;
@@ -28,6 +29,7 @@
 }
 
 @media (width >= 1024px) {
+  
   :root {
     --padding__page: 20px;
     --page__gap: 60px;
