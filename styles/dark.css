@@ -1,20 +1,15 @@
 :root.theme-dark {
-  --bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --text__color__titile: #db00ff;
+  --text-color-titile: #db00ff;
   --accent-color: #ff0070;
-  --text__color__accent: #000028;
-  --text__main__color: #f1b2ce;
-  --decor__color: #ff0070;
+  --text-color-accent: #000028;
+  --decor-color: #ff0070;
+  --button-color: #ff0070;
+  --button-hover-color: #FF007066;
+  --text-main-color: #f1b2ce;
 }
 
 .decorative-text {
-  position: absolute;
   display: block;
-  top: 0;
-  right: 28px;
-  color: var(--accent-color);
-  font-weight: var(--text__weight__regular);
-  font-size: var(--text__size);
-  line-height: 25px;
 }

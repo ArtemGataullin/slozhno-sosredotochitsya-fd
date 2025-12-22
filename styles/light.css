@@ -1,66 +1,34 @@
 :root.theme-light {
-  --bg-image: url(/images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
   --bg-color: #ffc2e6;
-  --text__color__titile: #ffc2e6;
+  --text-color-titile: #ffc2e6;
   --accent-color: #ff8dcb;
-  --text__color__accent: #353430;
-  --text__main__color: #353430;
-  --decor__color: #353430;
+  --text-color-accent: #353430;
+  --text-main-color: #353430;
+  --decor-color: #353430;
+  --button-color: #353430;
+  --button-hover-color: #32312D66;
 }
 
 .theme-light .decorative-text {
   display: none;
 }
 
-.theme-light .header__theme-menu-button {
-  color: var(--text__main__color);
-}
-
-.theme-light .header__theme-menu-button:hover {
-  border: 0.5px solid var(--text__main__color);
-}
-
-.theme-light .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--text__main__color);
-}
-
-.theme-light .header__theme-menu-button_active {
-  border: 1px solid var(--text__main__color);
-}
-
-.theme-light .section__title {
-  color: var(--text__main__color);
-}
-
 @media (prefers-color-scheme: light) {
   
-  :root.theme-light {
-    --bg-image: url(/images/cover-image-light.png);
+  :root.theme-auto {
+    --bg-image: url(../images/cover-image-light.png);
     --bg-color: #ffc2e6;
-    --text__color__titile: #ffc2e6;
+    --text-color-titile: #ffc2e6;
     --accent-color: #ff8dcb;
-    --text__color__accent: #353430;
-    --text__main__color: #353430;
-    --decor__color: #353430;
+    --text-color-accent: #353430;
+    --text-main-color: #353430;
+    --decor-color: #353430;
+    --button-color: #353430;
+    --button-hover-color: #32312D66;
   }
 
-  .theme-light .header__theme-menu-button {
-    color: var(--text__main__color);
-  }
-
-  .theme-light .header__theme-menu-button:hover {
-    border: 0.5px solid var(--text__main__color);
-  }
-
-  .theme-light .header__theme-menu-button:focus-visible {
-    border-block-end: 1px solid var(--text__main__color);
-  }
-
-  .theme-light .header__theme-menu-button_active {
-    border: 1px solid var(--text__main__color);
-  }
-
-  .theme-light .section__title {
-    color: var(--text__main__color);
+  .theme-auto .decorative-text {
+    display: none;
   }
 }

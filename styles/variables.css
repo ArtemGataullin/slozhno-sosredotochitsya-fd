@@ -1,37 +1,38 @@
 :root {
-  --font__family: 'IBM Plex mono', sans-serif;
-  --bg-image: url(/images/cover-image-dark.png);
+  --font-family: 'IBM Plex mono', sans-serif;
+  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --text__color__titile: #db00ff;
+  --text-color-titile: #db00ff;
   --accent-color: #ff0070;
-  --text__color__accent: #000028;
-  --decor__color: #ff0070;
-  --text__size: 18px;
-  --text__weight__bold: 700;
-  --text__weight__regular: 400;
-  --text__height: 23.4px;
-  --text__main__color: #f1b2ce;
-  --padding__page: 10px;
-  --page__gap: 40px;
-  --main__gap: 50px;
-  --main__gap__section: 20px;
-  --galary__gap: 10px;
+  --text-color-accent: #000028;
+  --decor-color: #ff0070;
+  --button-color: #ff0070;
+  --button-hover-color: #FF007066;
+  --text-main-color: #f1b2ce;
+  --text-size: 18px;
+  --text-weight-bold: 700;
+  --text-weight-regular: 400;
+  --text-height: 23.4px;
+  --padding-page: 10px;
+  --page-gap: 40px;
+  --main-gap: 50px;
+  --main-gap-section: 20px;
+  --galary-gap: 10px;
 }
 
 @media (width >= 768px) {
   
   :root {
-    --padding__page: 20px;
-    --page__gap: 60px;
-    --main__gap: 80px;
-    --galary__gap: 20px;
+    --padding-page: 20px;
+    --page-gap: 60px;
+    --main-gap: 80px;
+    --galary-gap: 20px;
   }
 }
 
 @media (width >= 1024px) {
   
   :root {
-    --padding__page: 20px;
-    --page__gap: 60px;
+    --page-gap: 60px;
   }
 }
