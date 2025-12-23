@@ -1,5 +1,5 @@
 :root {
-  --font-family: 'IBM Plex mono', sans-serif;
+  --font-family: 'IBM Plex mono', monospace, sans-serif;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
   --text-color-titile: #db00ff;
@@ -27,12 +27,5 @@
     --page-gap: 60px;
     --main-gap: 80px;
     --galary-gap: 20px;
-  }
-}
-
-@media (width >= 1024px) {
-  
-  :root {
-    --page-gap: 60px;
   }
 }
